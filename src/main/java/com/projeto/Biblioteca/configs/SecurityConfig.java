@@ -1,4 +1,4 @@
-/* 
+
 package com.projeto.Biblioteca.configs;
 
 
@@ -37,4 +37,4 @@ public class SecurityConfig {
 
     
 }
-*/
+
