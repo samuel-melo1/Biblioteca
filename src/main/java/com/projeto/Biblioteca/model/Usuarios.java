@@ -1,7 +1,7 @@
 package com.projeto.Biblioteca.model;
 
-import java.util.UUID;
 
+import java.util.UUID;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,7 +21,7 @@ public class Usuarios {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private UUID id;
 
     @Column(name = "nome")
     private String nome;
@@ -29,6 +29,8 @@ public class Usuarios {
     private String telefone;
     @Column(name = "email")
     private String email;
+    @Column(name = "senha")
+    private String senha;
 
     
 }

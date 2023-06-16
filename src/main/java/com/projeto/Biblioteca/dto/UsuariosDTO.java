@@ -16,6 +16,8 @@ public class UsuariosDTO {
     private String telefone;
     @NotBlank
     private String email;
+    @NotBlank
+    private String senha; 
 
 
     
